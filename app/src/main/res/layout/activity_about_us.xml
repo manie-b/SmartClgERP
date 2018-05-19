@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smart.DemoClassIncharge.teaching.AboutUs">
+
+
+    <!--<android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="10dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:minHeight="?attr/actionBarSize" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv7"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/sslogo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v5"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="450dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/im1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:src="@drawable/logot" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v1"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv4"
+                android:src="@drawable/whois"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:id="@+id/tv3"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:maxWidth="200dp"
+                android:text="Catch on http://smartstudenterp.com/" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv"
+                android:gravity="center"
+                android:src="@drawable/privileges2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:id="@+id/tv4"
+                android:textColor="#000000"
+                android:text="Why We Are Better"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="web"
+                android:textColor="#000000"
+                android:id="@+id/tv5"
+                android:text="@string/license" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v2"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv3"
+                android:src="@drawable/external_organizations"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:autoLink="web"
+                android:textColor="#000000"
+                android:id="@+id/tv7"
+                android:text="@string/Address"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v3"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv1"
+                android:src="@drawable/mail_open"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv8"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_margin="20dp"
+                android:autoLink="web"
+                android:maxWidth="200dp"
+                android:text="@string/mailid"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v4"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv5"
+                android:src="@drawable/location"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:id="@+id/tv9"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:maxWidth="200dp"
+                android:text="Find Us https://maps.app.goo.gl/uUIo09WRsahwzHNp2" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/v7"
+                android:layout_margin="20dp"
+                android:background="#2a4f5b" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
